@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yanzongzhen.github.io</id>
-    <title>Javen的摸鱼日常</title>
-    <updated>2022-03-01T06:24:58.256Z</updated>
+    <title>程序源的日常生活</title>
+    <updated>2022-03-01T06:34:00.914Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yanzongzhen.github.io"/>
     <link rel="self" href="https://yanzongzhen.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>生活不只眼前的枸杞，还是明日的六味地黄丸</subtitle>
     <logo>https://yanzongzhen.github.io/images/avatar.png</logo>
     <icon>https://yanzongzhen.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2022, Javen的摸鱼日常</rights>
+    <rights>All rights reserved 2022, 程序源的日常生活</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://yanzongzhen.github.io/post/hello-gridea/</id>

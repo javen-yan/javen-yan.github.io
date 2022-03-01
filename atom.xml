@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yanzongzhen.github.io</id>
     <title>程序猿的日常生活</title>
-    <updated>2022-03-01T06:47:37.082Z</updated>
+    <updated>2022-03-01T06:49:03.730Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yanzongzhen.github.io"/>
     <link rel="self" href="https://yanzongzhen.github.io/atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://yanzongzhen.github.io/images/avatar.png</logo>
     <icon>https://yanzongzhen.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 程序猿的日常生活</rights>
+    <entry>
+        <title type="html"><![CDATA[First Blog]]></title>
+        <id>https://yanzongzhen.github.io/post/first-blog/</id>
+        <link href="https://yanzongzhen.github.io/post/first-blog/">
+        </link>
+        <updated>2022-03-01T06:43:29.000Z</updated>
+        <content type="html"><![CDATA[<ul class="contains-task-list">
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-570817"><label class="task-list-item-label" for="task-item-570817"> 技术分享</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6076254"><label class="task-list-item-label" for="task-item-6076254"> 日常Bug处理</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2104538"><label class="task-list-item-label" for="task-item-2104538"> 生活琐事</label></li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://yanzongzhen.github.io/post/hello-gridea/</id>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yanzongzhen.github.io</id>
     <title>程序猿的日常生活</title>
-    <updated>2022-03-01T06:49:03.730Z</updated>
+    <updated>2022-03-17T02:47:52.178Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yanzongzhen.github.io"/>
     <link rel="self" href="https://yanzongzhen.github.io/atom.xml"/>
@@ -11,16 +11,49 @@
     <icon>https://yanzongzhen.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, 程序猿的日常生活</rights>
     <entry>
-        <title type="html"><![CDATA[First Blog]]></title>
-        <id>https://yanzongzhen.github.io/post/first-blog/</id>
-        <link href="https://yanzongzhen.github.io/post/first-blog/">
+        <title type="html"><![CDATA[Webrtc 基础知识 - NAT 原理]]></title>
+        <id>https://yanzongzhen.github.io/post/webrtc-ji-chu-zhi-shi-nat-yuan-li/</id>
+        <link href="https://yanzongzhen.github.io/post/webrtc-ji-chu-zhi-shi-nat-yuan-li/">
         </link>
-        <updated>2022-03-01T06:43:29.000Z</updated>
-        <content type="html"><![CDATA[<ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-570817"><label class="task-list-item-label" for="task-item-570817"> 技术分享</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6076254"><label class="task-list-item-label" for="task-item-6076254"> 日常Bug处理</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2104538"><label class="task-list-item-label" for="task-item-2104538"> 生活琐事</label></li>
-</ul>
+        <updated>2022-03-17T02:33:34.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="1webrtc-基础知识">1.WEBRTC  基础知识</h2>
+<ol>
+<li>NAT</li>
+<li>STUN</li>
+<li>TURN</li>
+<li>ICE</li>
+</ol>
+<h2 id="2nat-产生的原因">2.NAT 产生的原因</h2>
+<ol>
+<li>由于IPv4的地址不够</li>
+<li>由于网络安全的原因</li>
+</ol>
+<h2 id="3nat的种类">3.NAT的种类</h2>
+<ol>
+<li>
+<pre><code>完全锥形NAT  Full Cone Nat 
+</code></pre>
+</li>
+<li>
+<pre><code>地址限制锥形   Address Restricted Cone Nat
+</code></pre>
+</li>
+<li>
+<pre><code>端口限制型  Port Restricted Cone Nat
+</code></pre>
+</li>
+<li>
+<pre><code>对称型  Symmetric NAT
+</code></pre>
+</li>
+</ol>
+<h2 id="4nat穿越原理">4.NAT穿越原理</h2>
+<p><img src="https://yanzongzhen.github.io/post-images/1647484888161.png" alt="端口受限" loading="lazy"><br>
+<img src="https://yanzongzhen.github.io/post-images/1647484905620.png" alt="完全锥形" loading="lazy"><br>
+<img src="https://yanzongzhen.github.io/post-images/1647484922300.png" alt="地址受限" loading="lazy"><br>
+<img src="https://yanzongzhen.github.io/post-images/1647484934386.png" alt="对称" loading="lazy"></p>
+<h2 id="5nat-穿越组合">5.NAT 穿越组合</h2>
+<figure data-type="image" tabindex="1"><img src="https://yanzongzhen.github.io/post-images/1647484785375.png" alt="穿越组合" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>

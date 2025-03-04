@@ -5,12 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>Webrtc 基础知识 - NAT 原理 - 程序猿的日常生活</title>
-<link rel="shortcut icon" href="https://yanzongzhen.github.io/favicon.ico">
+<link rel="shortcut icon" href="https://javen-yan.github.io/favicon.ico">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
-<link rel="stylesheet" href="https://yanzongzhen.github.io/media/css/tailwind.css">
-<link rel="stylesheet" href="https://yanzongzhen.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="Webrtc 基础知识 - NAT 原理 - 程序猿的日常生活 - Atom Feed" href="https://yanzongzhen.github.io/atom.xml">
+<link rel="stylesheet" href="https://javen-yan.github.io/media/css/tailwind.css">
+<link rel="stylesheet" href="https://javen-yan.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="Webrtc 基础知识 - NAT 原理 - 程序猿的日常生活 - Atom Feed" href="https://javen-yan.github.io/atom.xml">
 
     
 
@@ -56,8 +56,8 @@ ICE
 
 ..." />
   <meta property="og:type" content="articles">
-  <meta property="og:url" content="https://yanzongzhen.github.io/post/webrtc-ji-chu-zhi-shi-nat-yuan-li/" />
-  <meta property="og:image" content="https://yanzongzhen.github.io/images/avatar.png">
+  <meta property="og:url" content="https://javen-yan.github.io/post/webrtc-ji-chu-zhi-shi-nat-yuan-li/" />
+  <meta property="og:image" content="https://javen-yan.github.io/images/avatar.png">
   <meta property="og:image:height" content="630">
   <meta property="og:image:width" content="1200">
   <meta name="twitter:title" content="Webrtc 基础知识 - NAT 原理 - 程序猿的日常生活">
@@ -82,13 +82,13 @@ ICE
 
 ...">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="canonical" href="https://yanzongzhen.github.io/post/webrtc-ji-chu-zhi-shi-nat-yuan-li/">
+  <link rel="canonical" href="https://javen-yan.github.io/post/webrtc-ji-chu-zhi-shi-nat-yuan-li/">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css">
  
   
-    <link rel="stylesheet" href="https://yanzongzhen.github.io/media/css/prism-atom-dark.css">
+    <link rel="stylesheet" href="https://javen-yan.github.io/media/css/prism-atom-dark.css">
   
 
   
@@ -96,7 +96,7 @@ ICE
 
 <body>
   <div class="antialiased flex flex-col min-h-screen" id="app">
-    <a href="https://yanzongzhen.github.io" class="fixed top-0 left-0 mt-4 bg-black text-white dark:text-gray-700 dark:bg-yellow-50 dark:hover:bg-black dark:hover:text-white inline-flex p-2 pl-8 hover:text-gray-700 hover:bg-yellow-50 font-bold z-10 transition-fast animated fadeInLeft">
+    <a href="https://javen-yan.github.io" class="fixed top-0 left-0 mt-4 bg-black text-white dark:text-gray-700 dark:bg-yellow-50 dark:hover:bg-black dark:hover:text-white inline-flex p-2 pl-8 hover:text-gray-700 hover:bg-yellow-50 font-bold z-10 transition-fast animated fadeInLeft">
       程序猿的日常生活
     </a>
     <div class="max-w-4xl w-full mx-auto">
@@ -108,7 +108,7 @@ ICE
         <div class="mb-8 flex flex-wrap">
           <div class="text-gray-400 text-sm mr-4">2022-03-17 · 1 min read</div>
           
-            <a href="https://yanzongzhen.github.io/tag/sp-XE73DN/" class="text-gray-700 text-sm border-b-2 border-dotted border-gray-200 hover:border-gray-600 transition-all duration-100 inline-flex mr-2">
+            <a href="https://javen-yan.github.io/tag/sp-XE73DN/" class="text-gray-700 text-sm border-b-2 border-dotted border-gray-200 hover:border-gray-600 transition-all duration-100 inline-flex mr-2">
               <i class="ri-hashtag"></i>
               Webrtc
             </a>
@@ -128,12 +128,12 @@ ICE
 <li>由于网络安全的原因</li>
 </ol>
 <h2 id="3nat的种类">3.NAT的种类</h2>
-<p><img src="https://yanzongzhen.github.io/post-images/1647484888161.png" alt="端口受限" loading="lazy"><br>
-<img src="https://yanzongzhen.github.io/post-images/1647484905620.png" alt="完全锥形" loading="lazy"><br>
-<img src="https://yanzongzhen.github.io/post-images/1647484922300.png" alt="地址受限" loading="lazy"><br>
-<img src="https://yanzongzhen.github.io/post-images/1647484934386.png" alt="对称" loading="lazy"></p>
+<p><img src="https://javen-yan.github.io/post-images/1647484888161.png" alt="端口受限" loading="lazy"><br>
+<img src="https://javen-yan.github.io/post-images/1647484905620.png" alt="完全锥形" loading="lazy"><br>
+<img src="https://javen-yan.github.io/post-images/1647484922300.png" alt="地址受限" loading="lazy"><br>
+<img src="https://javen-yan.github.io/post-images/1647484934386.png" alt="对称" loading="lazy"></p>
 <h2 id="4nat-穿越组合">4.NAT 穿越组合</h2>
-<figure data-type="image" tabindex="1"><img src="https://yanzongzhen.github.io/post-images/1647484785375.png" alt="穿越组合" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://javen-yan.github.io/post-images/1647484785375.png" alt="穿越组合" loading="lazy"></figure>
 
         </div>
         <!-- Share to Twitter, Weibo, Telegram -->
@@ -250,11 +250,11 @@ ICE
 </div>
 
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-  <script src="https://yanzongzhen.github.io/media/scripts/main.js"></script>
+  <script src="https://javen-yan.github.io/media/scripts/main.js"></script>
   
   <!-- Code Highlight -->
   
-    <script src="https://yanzongzhen.github.io/media/prism.js"></script>
+    <script src="https://javen-yan.github.io/media/prism.js"></script>
     <script>
       Prism.highlightAll()
     </script>
